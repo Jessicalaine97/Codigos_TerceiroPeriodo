@@ -1,0 +1,7 @@
+﻿WebAssemply
+Dapper
+Framework de persistência - são utilizados para realizar o mapeamento de dados de aplicações desenvolvidas no paradigma orientado a objetos para permitir seu armazenamento em bancos de dados relacionais e por isto são também denominados frameworks de mapeamento objeto-relacional.
+
+Instalar Visual Studio Communit
+
+Pontos: 1 avaliação e 1 trabalho

@@ -1,0 +1,14 @@
+D:\Jessica\PWA\Aula1\bin\Debug\net8.0\Aula1.exe
+D:\Jessica\PWA\Aula1\bin\Debug\net8.0\Aula1.deps.json
+D:\Jessica\PWA\Aula1\bin\Debug\net8.0\Aula1.runtimeconfig.json
+D:\Jessica\PWA\Aula1\bin\Debug\net8.0\Aula1.dll
+D:\Jessica\PWA\Aula1\bin\Debug\net8.0\Aula1.pdb
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.AssemblyInfoInputs.cache
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.AssemblyInfo.cs
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.csproj.CoreCompileInputs.cache
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.dll
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\refint\Aula1.dll
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.pdb
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\Aula1.genruntimeconfig.cache
+D:\Jessica\PWA\Aula1\obj\Debug\net8.0\ref\Aula1.dll
