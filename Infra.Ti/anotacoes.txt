@@ -13,6 +13,6 @@ cada no tem que ser atingivel atraves de uma sequencia unica
 altura: nivel da folha mais afastada
 arvore ordenada: em todos os casos o filho da esquerda é menor
 arvore binaria: no max 2 filhos (no max grau 2)
--> no esuqerda e no da direita
+-> no esquerda e no da direita
 
 -grafos:
