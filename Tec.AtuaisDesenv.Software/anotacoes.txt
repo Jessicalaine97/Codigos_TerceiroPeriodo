@@ -1,1 +1,12 @@
-Tec. atuais:
+Tec. atuais: PHP
+
+avaliacoes: trab final (3), trab. e teste (4), entrega semanal (2) e aps (1)
+
+funciona do lado do servidor (nao compilavel)
+docker compose up -d
+tem que salvar os arquivos na public_html
+
+<br> -> quebra linha (cod. html)
+\n" -> espaco
+
+http://localhost:8080/topico1/hello.php

@@ -1,2 +1,6 @@
 porta padrão: 80
 formato padrao: index.htm (podem ser omitidos)
+
+css:
+> -> todas as filhas
+espaco -> todas as divs
