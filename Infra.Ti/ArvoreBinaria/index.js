@@ -5,7 +5,7 @@ import ArvoreBinaria from"./Arvore.js";
 let raiz = new ArvoreBinaria;
 
 let noA = arvoreB.raiz;
-let noC = new No('C');
+let noC = new No('C'); 
 let noD = new No('D');
 let noE = new No('E');
 let noF = new No('F');
