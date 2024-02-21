@@ -5,3 +5,8 @@ Framework de persistência - são utilizados para realizar o mapeamento de dados
 Instalar Visual Studio Communit
 
 Pontos: 1 avaliação e 1 trabalho
+Banco usado: SQlite
+
+----------------------------------------
+
+Dapper:
