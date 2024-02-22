@@ -1,5 +1,5 @@
 import No from"./No.js";
-import ArvoreBinaria from"./Arvore.js";
+import ArvoreBinaria from"./ArvoreBinaria.js";
 //no max 2 filhos
 
 let raiz = new ArvoreBinaria;
@@ -17,3 +17,5 @@ noC.adicionaFilhoEsquerda(noD);
 noC.adicionaFilhoDireita(noE);
 
 console.log(arvore);
+
+arvoreB.buscarPPreOrdem();

@@ -4,3 +4,5 @@ formato padrao: index.htm (podem ser omitidos)
 css:
 > -> todas as filhas
 espaco -> todas as divs
+
+do get: parametros passados pela url ficam visiveis e do post nao ()

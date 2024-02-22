@@ -1,4 +1,5 @@
-import No from"./No.js";
+import No from "./No.js";
+import BuscaBProfundidade from "./BuscaBProfundidade.js";
 
 class ArvoreBinaria{
     
@@ -8,6 +9,21 @@ class ArvoreBinaria{
 
         this.raiz = new No (valor);
     }
+
+    buscarPPreOrdem(){
+        console.log("Busca em pré-ordem:");
+        BuscaBProfundidade.preOrdem(this.raiz);
+    }
+
+    buscarPPosOrdem(){
+        console.log("Busca em pós-ordem:");
+        BuscaBProfundidade.preOrdem(this.raiz);
+    }
+
+    buscarPInOrdem(){
+        console.log("Busca em in-ordem:");
+        BuscaBProfundidade.preOrdem(this.raiz);
+    }
 }
 
-export default Arvore;
+export default ArvoreBinaria;
