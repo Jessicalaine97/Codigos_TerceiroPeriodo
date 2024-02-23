@@ -1,8 +1,8 @@
 class No {
 
     valor = "";
-    noEsquerdo = null;
-    noDireito = null;
+    filhoEsquerda = null;
+    filhoDireita = null;
 
     constructor(valor){
         this.valor = valor;
@@ -10,7 +10,7 @@ class No {
 
     adicionaFilhoEsquerda(no){
         if(no instanceof No){
-            this.noEsquerdo = no;
+            this.filhoEsquerda = no;
         }else{
             throw new exception('Era esperado um nó como filho');
         }
@@ -18,7 +18,7 @@ class No {
 
     adicionaFilhoDireita(no){
         if(no instanceof No){
-            this.noDireito = no;
+            this.filhoDireita = no;
         }else{
             throw new exception('Era esperado um nó como filho');
         }

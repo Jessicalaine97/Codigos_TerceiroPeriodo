@@ -7,9 +7,9 @@ class BuscaBProfundidade{
         }
         console.log(no.valor);
 
-        BuscaBProfundidade.preOrdem(no.FilhoEsquerda);
+        BuscaBProfundidade.preOrdem(no.filhoEsquerda);
 
-        BuscaBProfundidade.preOrdem(no.FilhoDireita);
+        BuscaBProfundidade.preOrdem(no.filhoDireita);
     }
 
     static posOrdem(no){ //LRV
@@ -18,9 +18,9 @@ class BuscaBProfundidade{
             return;
         }
 
-        BuscaBProfundidade.preOrdem(no.FilhoEsquerda);
+        BuscaBProfundidade.preOrdem(no.filhoEsquerda);
 
-        BuscaBProfundidade.preOrdem(no.FilhoDireita);
+        BuscaBProfundidade.preOrdem(no.filhoDireita);
 
         console.log(no.valor);
     }
@@ -31,11 +31,11 @@ class BuscaBProfundidade{
             return;
         }
 
-        BuscaBProfundidade.preOrdem(no.FilhoEsquerda);
+        BuscaBProfundidade.preOrdem(no.filhoEsquerda);
 
         console.log(no.valor);
 
-        BuscaBProfundidade.preOrdem(no.FilhoDireita);
+        BuscaBProfundidade.preOrdem(no.filhoDireita);
     }
 }
 

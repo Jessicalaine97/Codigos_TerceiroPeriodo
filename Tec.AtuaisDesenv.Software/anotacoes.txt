@@ -8,5 +8,9 @@ tem que salvar os arquivos na public_html
 
 <br> -> quebra linha (cod. html)
 \n" -> espaco
+. -> concatenar
+-?= == <?php echo
 
 http://localhost:8080/topico1/hello.php
+
+rodar docker: docker-compose up -d
