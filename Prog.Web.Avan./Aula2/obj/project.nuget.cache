@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kJnE+7K6csSVyu1E3uzKgjYNIIxPBXf4HgMaRBykFHyyn/2TJ9pjeHehuvpU5LKrl+KRv5kYZO4VZMQhawrlvQ==",
+  "dgSpecHash": "wtW4dD4GagQsnvoUbdjPO6t8Yt2drsMcGrC925kLLx2EDJNVVhvnhX/qTbORblPedBRaJz3mLpo6YUmVEzaFRw==",
   "success": true,
-  "projectFilePath": "/home/aluno/Documentos/Jessica/Aula2/Aula2.csproj",
+  "projectFilePath": "/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula2/Aula2.csproj",
   "expectedPackageFiles": [
     "/home/aluno/.nuget/packages/microsoft.data.sqlite/8.0.2/microsoft.data.sqlite.8.0.2.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.data.sqlite.core/8.0.2/microsoft.data.sqlite.core.8.0.2.nupkg.sha512",

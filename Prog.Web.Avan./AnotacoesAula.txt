@@ -10,3 +10,5 @@ Banco usado: SQlite
 ----------------------------------------
 
 Dapper:
+
+SQL Injection -> resolve usando parametros
