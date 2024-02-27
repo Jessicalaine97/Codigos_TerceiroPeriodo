@@ -1,5 +1,7 @@
 import No from "./No.js";
 import BuscaBProfundidade from "./BuscaBProfundidade.js";
+import BuscaBLargura from "./BuscaBLargura.js";
+
 
 class ArvoreBinaria{
     
@@ -23,6 +25,11 @@ class ArvoreBinaria{
     buscarPInOrdem(){
         console.log("Busca em in-ordem:");
         BuscaBProfundidade.preOrdem(this.raiz);
+    }
+
+    buscaL(){
+        console.log("Busca em largura:")
+        BuscaBProfundidade.posOrdem(this.raiz);
     }
 }
 

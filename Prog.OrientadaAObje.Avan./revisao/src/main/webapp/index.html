@@ -13,18 +13,43 @@
         </div>
         <div class="body">
             <div class="bodyContainer">
-                <form action="">
+                <form action="/primeiro" method="GET">
                     <fieldset>
                         <legend>Calculadora</legend>
                         <div class="form">
                             <div class="row">
-                                <label for="">A</label>
-                                <input type="text">
-                                <label for="">A</label>
-                                <input type="text">
+                                <label for="">Valor 1</label>
+                                <input type="number" nome="cpValor1">
+                                <label for="">Valor 2</label>
+                                <input type="number" nome="cpValor2">
                                 <label for="">
-                                    <button>
-                                        OK
+                                    <button name="btn" value="+">
+                                        +
+                                    </button>
+                                    <button name="btn" value="-">
+                                       -
+                                    </button>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <form method="GET">
+                    <fieldset>
+                        <legend>Calculadora Com Ajax</legend>
+                        <div class="form">
+                            <div class="row ajax">
+                                <label for="">Valor 1</label>
+                                <input type="number" nome="cpValor1">
+                                <label for="">Valor 2</label>
+                                <input type="number" nome="cpValor2">
+                                <label for="">
+                                    <button name="btn" value="+">
+                                        +
+                                    </button>
+                                    <button name="btn" value="-">
+                                        -
                                     </button>
                                 </label>
                             </div>
@@ -37,6 +62,7 @@
             <h2>footer</h2>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <!--script src="js/script.js"></script>-->
+    <script src="js/ajax.js"></script>
 </body>
 </html>

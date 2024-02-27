@@ -23,3 +23,14 @@ arvore binaria: no max 2 filhos (no max grau 2)
 -pre ordem: VLR 20 10 8 6 9 15 14 18 30 25 33
 -pos ordem: LRV 6 9 8 14 18 15 10 25 33 30 20
 -in dordem: LVR 6 8 9 10 14 15 18 20 25 30 33
+
+busca em largura: segue os niveis da arvore 20 10 30 8 15 25 33 6 9 14 18 
+                20 
+        10                 30
+   8         15       25        33
+6    9    14    18
+
+Arvore binaria de busca -> Busca null slide: LVD (in ordem) 30 42 50 65 70 80 100 105 107 140 200 350 400 -> BUSCA E ORDENACAO
+-nao pode ter valores duplicados
+-esquerda (valores menores que a raiz) e direita (maiores)
+
