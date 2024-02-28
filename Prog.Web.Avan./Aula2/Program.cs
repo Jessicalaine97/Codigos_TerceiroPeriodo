@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
+﻿using Dapper;
+using Microsoft.Data.Sqlite;
 
 using (var conexao = new SqliteConnection(@"Data Source=db/dados.db"))
 {
