@@ -13,7 +13,7 @@
         </div>
         <div class="body">
             <div class="bodyContainer">
-                <form action="/primeiro" method="GET">
+                <form action="/primeiro" method="POST">
                     <fieldset>
                         <legend>Calculadora</legend>
                         <div class="form">
@@ -45,6 +45,29 @@
                                 <label for="">Valor 2</label>
                                 <input type="number" nome="cpValor2">
                                 <label for="">
+                                    <button name="btn" value="+" type="button">
+                                        +
+                                    </button>
+                                    <button name="btn" value="-" type="button">
+                                        -
+                                    </button>
+                                </label>
+                                <h2 style="display: none"></h2>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <form action="/terceiro" method="GET">
+                    <fieldset>
+                        <legend>Calculadora usando redirect</legend>
+                        <div class="form">
+                            <div class="row">
+                                <label for="">Valor 1</label>
+                                <input type="number" nome="cpValor1">
+                                <label for="">Valor 2</label>
+                                <input type="number" nome="cpValor2">
+                                <label for="">
                                     <button name="btn" value="+">
                                         +
                                     </button>
@@ -56,6 +79,7 @@
                         </div>
                     </fieldset>
                 </form>
+
             </div>
         </div>
         <div class="footer">
