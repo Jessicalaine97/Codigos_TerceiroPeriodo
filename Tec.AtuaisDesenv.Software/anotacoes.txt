@@ -14,3 +14,8 @@ tem que salvar os arquivos na public_html
 http://localhost:8080/topico1/hello.php
 
 rodar docker: docker-compose up -d
+
+get manda informacoes direto na requisicao (link)  + rapido 
+e post nao (os dois ) + seguro
+
+qnd nao faz diferenca se é get ou post -> $_REQUEST
