@@ -19,9 +19,9 @@
                         <div class="form">
                             <div class="row">
                                 <label for="">Valor 1</label>
-                                <input type="number" nome="cpValor1">
+                                <input type="number" name="cpValor1">
                                 <label for="">Valor 2</label>
-                                <input type="number" nome="cpValor2">
+                                <input type="number" name="cpValor2">
                                 <label for="">
                                     <button name="btn" value="+">
                                         +
@@ -41,9 +41,9 @@
                         <div class="form">
                             <div class="row ajax">
                                 <label for="">Valor 1</label>
-                                <input type="number" nome="cpValor1">
+                                <input type="number" name="cpValor1">
                                 <label for="">Valor 2</label>
-                                <input type="number" nome="cpValor2">
+                                <input type="number" name="cpValor2">
                                 <label for="">
                                     <button name="btn" value="+" type="button">
                                         +
@@ -58,15 +58,37 @@
                     </fieldset>
                 </form>
 
-                <form action="/terceiro" method="GET">
+                <form action="/terceiro" method="POST">
                     <fieldset>
                         <legend>Calculadora usando redirect</legend>
                         <div class="form">
                             <div class="row">
                                 <label for="">Valor 1</label>
-                                <input type="number" nome="cpValor1">
+                                <input type="number" name="cpValor1">
                                 <label for="">Valor 2</label>
-                                <input type="number" nome="cpValor2">
+                                <input type="number" name="cpValor2">
+                                <label for="">
+                                    <button name="btn" value="+">
+                                        +
+                                    </button>
+                                    <button name="btn" value="-">
+                                        -
+                                    </button>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <form action="/quarto" method="POST">
+                    <fieldset>
+                        <legend>Calculadora usando Forward</legend>
+                        <div class="form">
+                            <div class="row">
+                                <label for="">Valor 1</label>
+                                <input type="number" name="cpValor1">
+                                <label for="">Valor 2</label>
+                                <input type="number" name="cpValor2">
                                 <label for="">
                                     <button name="btn" value="+">
                                         +

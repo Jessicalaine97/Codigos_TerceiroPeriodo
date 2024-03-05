@@ -14,7 +14,7 @@ const callAjax =(e)=>{
         var r = await resp.text();
         console.log(r);
         var out = document.querySelector(".ajax h2");
-        //out.innerHTML = `O resultado é ${r}`;
+        out.innerHTML = `O resultado é ${r}`;
         out.style.display = 'block';
         campos.forEach(c => c.value = '0')
     })

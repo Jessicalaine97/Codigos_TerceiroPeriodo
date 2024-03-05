@@ -3,7 +3,7 @@ Infra TI:
 -fila o primeiro a entrar e o primeiro a sair
 -pilha: o primeiro a entrar e o ultimo a sair
 
--arvore: 
+-arvore: hierarquia/busca
 raiz nao tem pai (nivel 0)
 com 1 no so pode ser arvore
 grau da arvore: maior grau dos nos (aridade)
@@ -34,3 +34,13 @@ Arvore binaria de busca -> Busca null slide: LVD (in ordem) 30 42 50 65 70 80 10
 -nao pode ter valores duplicados
 -esquerda (valores menores que a raiz) e direita (maiores)
 
+-grafos: vertice, aresta e funcao
+-> forma de se resolver um problema
+
+matriz incidencia grafo1.png
+        a       b       c       d       e       f       g       h
+u       1       2       0       0       0       0       1       0
+x       0       0       0       1       1       1       1       1                                                 
+y       0       0       0       0       0       0       0       1
+v       1       0       1       0       1       0       0       0       
+w       0       0       1       1       0       1       0       0

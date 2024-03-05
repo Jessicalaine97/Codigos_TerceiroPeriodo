@@ -44,3 +44,49 @@ using (var conexao = new SqliteConnection(@"Data Source=db/dados.db"))
     conexao.Execute(sql, obj);
 }
 
+/*aula que faltei
+/* USANDO DAPPER */ 
+// INSERT
+// using (var conexao = new SqliteConnection("DataSource=db/dados.db"))
+// {
+//     conexao.Open();
+
+//     var obj = new Contato{
+//         Id = "5",
+//         Nome = "Cláudia",
+//         Email = "claudinho_almeida@hotmail.com"
+//     };
+
+//     const string sql = "insert into contato" + "(id, nome, email)" + "values (@Id, @Nome, @Email)";
+
+//     conexao.Execute(sql, obj);
+// }
+// UPDATE
+//     const string sql = "update contato set nome=@Nome, email=@Email where id=@Id";
+// DELETE
+//     const string sql = "delete from contato where id=@Id";
+
+
+// using (var conexao = new SqliteConnection("DataSource=db/dados.db")){
+//     conexao.Open();
+
+    // QUERY DE LINHAS MÚLTIPLAS
+    // const string sql = "select * from contato where nome like @parteNome order by nome";
+
+    // var objetos = conexao.Query<Contato>(sql, new { parteNome = "%a%"});
+
+    // foreach (var item in objetos)
+    // {
+    //     Console.WriteLine($"{item.Nome} - {item.Email}");
+    // }
+
+    // QUERY DE LINHA ÚNICA
+//     const string sql = "select * from contato where id = @Id";
+
+//     var obj = conexao.QuerySingle<Contato>(sql, new { Id = 1 });
+
+//     Console.WriteLine($"{obj.Nome} - {obj.Email}");
+
+// }
+//
+
