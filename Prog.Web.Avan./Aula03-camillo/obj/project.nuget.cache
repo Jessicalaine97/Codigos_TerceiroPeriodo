@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "1OAOhrjzuflW3fvwxSr+rriGGqcDOr/m+B5L2pjVb3udveZHU7FxhWQ5iiMzKo9qyZkxheWfNxSbWZN2qPKDZg==",
+  "success": true,
+  "projectFilePath": "/home/professor/Documentos/Camillo/Aula03/Aula03.csproj",
+  "expectedPackageFiles": [
+    "/home/professor/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
+    "/home/professor/.nuget/packages/microsoft.data.sqlite/8.0.2/microsoft.data.sqlite.8.0.2.nupkg.sha512",
+    "/home/professor/.nuget/packages/microsoft.data.sqlite.core/8.0.2/microsoft.data.sqlite.core.8.0.2.nupkg.sha512",
+    "/home/professor/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/professor/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/home/professor/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/professor/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/professor/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

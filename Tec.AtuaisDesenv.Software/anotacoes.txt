@@ -19,3 +19,5 @@ get manda informacoes direto na requisicao (link)  + rapido
 e post nao (os dois ) + seguro
 
 qnd nao faz diferenca se é get ou post -> $_REQUEST
+
+ <option value="RJ">Rio de Janeiro</option> -> util utilizar o value qnd se mostra um valor e se grava outro no banco

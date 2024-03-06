@@ -12,3 +12,7 @@ Banco usado: SQlite
 Dapper:
 
 SQL Injection -> resolve usando parametros
+
+--------------------------------------
+NuGet Package Manager GUI
+(CTRL + Shift + P e digite: Nuget)
