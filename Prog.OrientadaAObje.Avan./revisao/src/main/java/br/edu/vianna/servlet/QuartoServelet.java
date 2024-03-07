@@ -29,10 +29,16 @@ public class QuartoServelet extends HttpServlet {
             c.setValor2(Integer.parseInt(v2));
             c.setOperador(btn);
 
+            //resp.setCharacterEncoding("UTF-8");
+
             RequestDispatcher rd = req.getRequestDispatcher("respostaForward.jsp?nome=Zezin");
+            req.setAttribute("calc", c.operacao());
+            req.setAttribute("obj", c);
+
             rd.forward(req, resp);
         }catch (ServletException e) {
-            System.out.println("Deu ruim");
+            //para aparecer o erro
+            System.out.println("Deu Ruim"+e.getMessage());
         }catch (IOException e){
         System.out.println("Deu ruim");
         }
