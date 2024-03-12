@@ -17,7 +17,7 @@ v.adicionaAresta(y,0);
 
 //grafo
 
-let a = new Vertice("a");
+let a = new Vertice("a"); 
 let b = new Vertice("b");
 let c = new Vertice("c");
 let d = new Vertice("d");
@@ -27,9 +27,13 @@ let g = new Vertice("g");
 let s = new Vertice("s");
 let t = new Vertice("t");
 
+//s -> inicio e t -> fim
 let grafo = new Grafo(s,t);
 
 s.adicionaAresta(a,3.1);
 s.adicionaAresta(b,3.1);
 s.adicionaAresta(c,3.5);
 s.adicionaAresta(t,4.8);
+
+console.log(s.getOrdenados);
+
