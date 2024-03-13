@@ -1,10 +1,6 @@
 <?php
+require_once "Funcionario.php";
 
-require_once("UsuarioSessao.php");
-$usu1 = new UsuarioSessao("Juquinha", "Juca");
+$func1 = new Funcionario(2000, "João", 123);
 
-$usu1->salvar();
-$usu1->ler();
-
-var_dump($usu1);
-
+var_dump($func1);
