@@ -16,7 +16,7 @@ export default class Vertice{
     }
 
     getOrdenados(){
-        let ordenados = this.adjacentes.sort((a, b)=>{
+        this.adjacentes.sort((a, b)=>{
             if(a.destino.heuristica < b.destino.heuristica)
                 return -1;
             else if(a.destino.heuristica > b.destino.heuristica)
