@@ -1,0 +1,10 @@
+@AtletaApi_HostAddress = http://localhost:5189
+
+GET {{AtletaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{AtletaApi_HostAddress}}/atleta/
+Accept: application/json
+
+
+###
