@@ -15,6 +15,16 @@ export default class Vertice{
         this.adjacentes.push(new Aresta(this, destino, peso));
     }
 
+    buscaAresta(vertice){
+        let arestaEncontrada=null;
+        this.adjacentes.forEach(aresta =>{
+            if(aresta.destino == vertice){
+                arestaEncontrada=aresta;
+            }
+        })        
+        return arestaEncontrada;                          
+    }
+
     getOrdenados(){
         this.adjacentes.sort((a, b)=>{
             if(a.destino.heuristica < b.destino.heuristica)
@@ -29,7 +39,6 @@ export default class Vertice{
         this.adjacentes.forEach(aresta =>{
             ordenados.push(aresta.destino);
         });
-
 
         return ordenados;
     }

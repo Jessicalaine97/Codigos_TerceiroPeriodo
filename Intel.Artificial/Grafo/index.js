@@ -1,5 +1,7 @@
-//vertice
+import Grafo from "./Grafo.js";
+import Aresta from "./Aresta.js";
 
+//vertice
 let v = new Vertice("v");
 let u = new Vertice("u");
 let w = new Vertice("w");
@@ -16,7 +18,6 @@ v.adicionaAresta(x,0);
 v.adicionaAresta(y,0);
 
 //grafo
-
 let a = new Vertice("a"); 
 let b = new Vertice("b");
 let c = new Vertice("c");
@@ -36,4 +37,6 @@ s.adicionaAresta(c,3.5);
 s.adicionaAresta(t,4.8);
 
 console.log(s.getOrdenados);
+
+
 
