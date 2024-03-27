@@ -1,0 +1,12 @@
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.deps.json
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.dll
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/bin/Debug/net8.0/StringLibrary.pdb
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfoInputs.cache
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfo.cs
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.csproj.CoreCompileInputs.cache
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.sourcelink.json
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.dll
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/refint/StringLibrary.dll
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/StringLibrary.pdb
+/home/aluno/Documentos/Jessica/Codigos_TerceiroPeriodo/Prog.Web.Avan./Aula7/StringLibrary/obj/Debug/net8.0/ref/StringLibrary.dll
